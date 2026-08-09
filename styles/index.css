@@ -27,7 +27,7 @@ body{
 }
 
 header,main,footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1100px;
     height: auto;
     margin: 0 auto;
@@ -92,23 +92,22 @@ main{
 }
 
 main section{
-    border: 1px solid black;
-    height: 600px;
+    /* border: 1px solid red; */
+    height: 900px;
 }
 .home {
     display: flex;
     flex-direction: row;
+    border: none;
 }
 
 .homeinfo {
-    /* border: 1px solid blue; */
     width: 40%;
     height: 560px;
     margin-top: 40px;
 }
 
 .homeimage {
-    /* border: 1px solid blue; */
     width: 60%;
     height: 560px;
     margin-top: 40px;
@@ -167,4 +166,107 @@ main section{
     line-height: 27px;
     font-size: 20px;
 }
+
+.aboutus{
+    border-top: 3px dashed #D6336C;
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+
+.aboutus .labelbox{
+    border: 1px solid #F4D9E1;
+    width: 40%;
+    height: 230px;
+    margin-top: 90px;
+    background: var(--paper);
+    border-radius: 20px;
+
+}
+
+.aboutus .labelinfo {
+    width: 55%;
+    height: 320px;
+    margin-top: 60px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.sectiontitle{
+    color: var(--rose);
+    padding-bottom: 10px;
+}
+
+.label{
+    margin-top: 30px;
+    width: 400px;
+    height: 180px;
+    border-left: 5px solid #D6336C;
+    padding-left: 35px;
+}
+
+.label p{
+    font-size: 15px;
+}
+
+
+.label span{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.label span p{
+    background: var(--pink-mist);
+    color: var(--rose-deep);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.collections{
+    border-top: 3px dashed #D6336C;
+
+}
+
+.collectioninfo{
+    margin-top: 40px;
+    height: 15%;
+}
+
+.collectioninfo h3{
+    text-align: center;
+}
+
+.collectioninfo p{
+    text-align: center;
+}
+
+.products{
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.products .productcat{
+    border: 1px solid #D6336C;
+    width: 269px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.productimage{
+    border-radius: 20px;
+    background: #FFFFFF;
+    height: 200px;
+
+}
+
+.productinfo{
+    padding: 10px 0 0 20px;
+}
+
 

@@ -335,7 +335,9 @@ main section{
 
 .bookusinfo p{
     color: var(--pink-mist);
-    text-align: justify; 
+    text-align: justify;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .bookusinfo h3 {
@@ -343,8 +345,13 @@ main section{
     text-align: left;
     font-size: 25px;
     line-height: normal;
-    padding: 0 0 0 10px;
+    padding-left:10px;
+    margin-top: 40px;
 }
+
+/* .bookusinfo .bookus-details{
+    margin-bottom: 50px;
+} */
 
 .bookusinfo a{
     padding-left: 15px;
@@ -425,3 +432,22 @@ footer .footer-email{
     text-decoration: none;
 }
 
+.whatsapp-fab {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px -6px rgba(0, 0, 0, .4);
+    z-index: 999;
+    transition: transform .2s ease;
+}
+
+.whatsapp-fab:hover {
+    transform: scale(1.08);
+}

@@ -84,6 +84,7 @@ header{
     color: var(--ink);
     font-size: 16px;
     font-family: "Work Sans", Arial, sans-serif;
+    cursor: pointer;
 }
 
 main{
@@ -153,12 +154,14 @@ main section{
     background-color: var(--rose);
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 .bookfitting button {
     background-color: var(--paper);
     border: 2px solid #1B1717;
     color: #3A3232;
+    cursor: pointer;
 }
 
 .home article {
@@ -256,6 +259,7 @@ main section{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .productimage{
@@ -269,4 +273,36 @@ main section{
     padding: 10px 0 0 20px;
 }
 
+.bookus{
+    border-top: 3px dashed #D6336C;
+    background: var(--ink);
+}
 
+.bookus p{
+    text-align: center;
+    padding: 20px;
+}
+
+.bookus h3{
+    text-align: center;
+    color: var(--blush);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.bookusdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.bookusinfo{
+    border: 1px solid #3A3232;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    cursor: pointer;
+}

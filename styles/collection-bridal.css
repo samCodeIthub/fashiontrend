@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blush: #FBF1F2;
+    --paper: #FFFFFF;
+    --pink-mist: #F4D9E1;
+    --rose: #D6336C;
+    --rose-deep: #8F1B49;
+    --ink: #1B1717;
+    --ink-soft: #3A3232;
+    --thread: repeating-linear-gradient(90deg, var(--rose) 0 10px, transparent 10px 18px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--blush);
+    color: var(--ink-soft);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.fullcontainer {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FBF1F2;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+    gap: 0.65em
+}
+
+.logo img {
+    border: 2px solid var(--rose);
+    border-radius: 35px;
+    width: 65px;
+    height: 100%;
+    background: var(--paper);
+}
+
+.logo span {
+    margin-top: 16px;
+    font-family: "Fraunces";
+    font-size: 15px;
+}
+
+.logo .brand {
+    font-family: "Cormorant Garamond";
+    color: var(--rose);
+    font-style: italic;
+}
+
+.nav {
+    padding-top: 20px;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+.bridalintro{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bridalintro h1{
+    text-align: center;
+    color: var(--ink);
+}
+
+.bridalintro p{
+    text-align: center;
+    color: var(--ink-soft);
+    padding: 10px;
+}
+
+.bridalintro .sectiontitle{
+    color: var(--rose);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.sort-out{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.sort-out button{
+    padding: 8px 14px 12px 14px;
+    cursor: pointer;
+    background: var(--paper);
+    color: var(--rose);
+    border: 1px solid ;
+    border-radius: 15px;
+    font-size:15px;
+}
+
+.sort-out button.active {
+    background: var(--rose);
+    color: #FFFFFF;
+}
+
+.bridal-content{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.bridal-content .dress{
+    width: 350px;
+    height: 450px;
+    border: 1px solid#8F1B49;
+    margin: 0 auto;
+    border-radius: 20px ;
+}
+
+.dress img{
+    width: 100%;
+    height: 75%;
+    background: var(--paper);
+    border-radius: 20px;
+}
+
+.dress .dress-info{
+    width: 90%;
+    height: 25%;
+    padding: 5px 20px 10px ;
+}
+
+.dress-info .dress-title{
+    color: var(--rose);
+    font-size: 15px;
+}
+
+.dress-info p{
+    color: var(--ink);
+    font-size: 20px;
+}
+
+.dress-info a{
+    text-decoration: none;
+    color: var(--rose-deep);
+}
+
+footer {
+    border-top: 0.5px solid #FBF1F2;
+    height: 350px;
+    background: var(--ink);
+}
+
+
+
+footer section {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+footer .footerdiv {
+
+    width: 350px;
+    height: 270px;
+    padding: 20px;
+}
+
+.footerdiv .logo span{
+    color: var(--blush);
+}
+
+.footerdiv .logo .brand{
+    color: var(--rose);
+}
+
+.footer-email {
+
+    width: 100%;
+    height: 22%;
+    color: var(--pink-mist);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer-email p a {
+    color: var(--pink-mist);
+    text-decoration: none;
+}
+
+footer .footer-email {
+    border-top: 1px solid #3A3232;
+    width: 1100px;
+    margin-left: 130px;
+}
+
+.footerdiv .logo {
+    width: 100%;
+    height: 70px;
+}
+
+.footerdiv p {
+    padding-top: 20px;
+    color: var(--rose);
+}
+
+.footerdiv .foot-title {
+    color: var(--blush);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footerdiv ul a {
+    color: var(--paper);
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.whatsapp-fab {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px -6px rgba(0, 0, 0, .4);
+    z-index: 999;
+    transition: transform .2s ease;
+}
+
+.whatsapp-fab:hover {
+    transform: scale(1.08);
+}

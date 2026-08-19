@@ -138,6 +138,12 @@
         height: auto;
     }
 
+    footer .fullcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     footer section {
         flex-direction: column;
         height: auto;

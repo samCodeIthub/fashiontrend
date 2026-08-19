@@ -81,7 +81,7 @@ header {
 .logo .brand {
     font-family: "Cormorant Garamond";
     color: var(--rose);
-    font-style: italic;
+    font-style: italic;  
 }
 
 .nav {

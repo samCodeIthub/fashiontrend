@@ -59,7 +59,8 @@ header{
     flex-direction: row;
     width: 30%;
     height: 100%;
-    gap: 0.65em
+    gap: 0.65em;
+    margin: 10px;
 }
 
 .logo img{
@@ -71,7 +72,7 @@ header{
 }
 
 .logo span{
-    margin-top: 16px;
+    margin-top: 2px;
     font-family: "Fraunces";
     font-size: 15px;
 }

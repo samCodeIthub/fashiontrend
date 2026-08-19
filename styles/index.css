@@ -57,7 +57,7 @@ header{
 .logo{
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 40%;
     height: 100%;
     gap: 0.65em;
     margin: 10px;
@@ -107,6 +107,7 @@ header{
     cursor: pointer;
     padding: 0;
     margin-top: 24px;
+    margin-left: 150px;
 }
 
 .hamburger span {
